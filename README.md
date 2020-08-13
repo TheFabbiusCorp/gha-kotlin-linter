@@ -10,7 +10,7 @@ This GitHub action runs the Kotlin Linter, [ktlint](https://github.com/pinterest
 
 ## Example usage
 
-```
+```kotlin
 name: ktlint
 
 on:
