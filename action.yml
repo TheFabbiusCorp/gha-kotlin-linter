@@ -1,15 +1,23 @@
 name: "Kotlint"
 description: "Run the latest version of ktlint in your repository"
 inputs:
-  patterns:
-    description: "A list of patterns to pass along to the ktlint command"
+  paths:
+    description: "A list of paths to pass along to the ktlint command."
     required: false
     default: "**/*.kt"
+  auto-correction:
+    description: "With this argument ktlint will perform corrections when possible."
+    required: false
+    default: "-F"
+  no-wildcard-imports:
+    description: "With this argument ktlint will not notify about wildcards in code."
+    required: false
+    default: "--disabled_rules=no-wildcard-imports"
 runs:
   using: "docker"
   image: "Dockerfile"
   args:
-    - ${{ inputs.patterns }}
+    - ${{ inputs.auto-correction inputs.no-wildcard-imports inputs.paths }}
 branding:
   icon: search
   color: blue
