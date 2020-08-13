@@ -11,5 +11,5 @@ runs:
   args:
     - ${{ inputs.patterns }}
 branding:
-  icon: eye
-  color: purple
+  icon: search
+  color: blue
