@@ -1,5 +1,5 @@
 name: "Kotlint"
-description: "Run ktlint in your repository"
+description: "Run the latest version of ktlint in your repository"
 inputs:
   patterns:
     description: "A list of patterns to pass along to the ktlint command"
