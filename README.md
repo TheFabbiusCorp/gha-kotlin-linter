@@ -30,5 +30,5 @@ on:
          uses: actions/checkout@v2.3.2
 
        - name: "ktlint"
-         uses: fabiocapasso93/gha-kotlin-linter@v3
+         uses: fabiocapasso93/gha-kotlin-linter@v0.37.2
 ```
