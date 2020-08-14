@@ -1,5 +1,5 @@
 name: "Kotlint"
-description: "Run the latest version of ktlint in your repository"
+description: "Run the latest version of ktlint in your repository, disabling wildcard-imports error notification."
 inputs:
   paths:
     description: "A list of paths to pass along to the ktlint command."
