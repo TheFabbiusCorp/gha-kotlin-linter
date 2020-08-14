@@ -2,15 +2,9 @@
 
 This GitHub action runs the Kotlin Linter [ktlint](https://github.com/pinterest/ktlint).
 
-## Inputs
-
-> ### `patterns`
->
-> **Optional** A list of patterns to pass along to the `ktlint` command.
->
-> Default: `**/*.kt`
-
 ## Example usage
+
+An MVE can be obtained by putting the below code into a YAML file located inside the `.github/workflows` folder:
 
 ```kotlin
 name: kotlint
