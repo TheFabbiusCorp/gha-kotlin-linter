@@ -1,6 +1,6 @@
-# GitHub Action Kotlin Linter
+# GitHub Action Kotlint
 
-This GitHub action runs the Kotlin Linter [ktlint](https://github.com/pinterest/ktlint).
+This GitHub action runs the Kotlin linter [ktlint](https://github.com/pinterest/ktlint).
 
 ## Example usage
 
